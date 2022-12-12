@@ -44,3 +44,16 @@ if (+num2 - +num1 >= 5 || +num1 - +num2 >= 5) {
   alert(`Range must be greater than 5 numbers`);
 }
 ```
+### Experience 
+---
+
+Working with Github and codding on Codewars
+### Education 
+---
+
+* IT School Melarossa(Front-End) in progress
+* RS School in progress
+### English level 
+---
+
+Near by B2
