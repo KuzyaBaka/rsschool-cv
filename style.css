@@ -171,6 +171,10 @@ p {
   );
 }
 
+.rs-img {
+  width: 70px;
+}
+
 /* Media*/
 
 @media screen and (max-width: 470px) {
