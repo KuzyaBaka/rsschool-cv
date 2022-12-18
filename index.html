@@ -11,40 +11,133 @@
     <title>Document</title>
   </head>
   <body>
-    <header class="header">
-      <div class="image-container">
-        <img src="./img/0912220958 (2).jpg" alt="It's me" class="head-img" />
-      </div>
-      <div>
-        <h1 class="headline">Kuznetsov Dmitry</h1>
-        <nav class="head-social">
-          <ul class="headline-ul">
-            <li>
-              <a href="https://github.com/KuzyaBaka"
-                ><img src="./img/Github-icon.png" alt="github"
-              /></a>
-            </li>
-            <li>
-              <a href="https://vk.com/k6aka"
-                ><img src="./img/VKicon.png" alt="VK"
-              /></a>
-            </li>
-            <li>
-              <a href="https://t.me/KuzyaBaka"
-                ><img src="./img/Telegram-Icon.png" alt="Telegram"
-              /></a>
-            </li>
-            <li>
-              <a
-                href="https://www.linkedin.com/in/%D0%B4%D0%BC%D0%B8%D1%82%D1%80%D0%B8%D0%B9-%D0%BA%D1%83%D0%B7%D0%BD%D0%B5%D1%86%D0%BE%D0%B2-854689256/"
-                ><img src="./img/linkedinicon.png" alt="linkedin"
-              /></a>
-            </li>
-          </ul>
-        </nav>
-      </div>
-    </header>
-    <main></main>
-    <footer></footer>
+    <div class="wrapper">
+      <header class="header">
+        <div class="image-container">
+          <img src="./img/0912220958 (2).jpg" alt="It's me" class="head-img" />
+        </div>
+        <div>
+          <h1 class="headline">Kuznetsov Dmitry</h1>
+          <nav class="head-social">
+            <ul class="headline-ul">
+              <li>
+                <a href="https://github.com/KuzyaBaka" target="_blank"
+                  ><img src="./img/Github-icon.png" alt="github"
+                /></a>
+              </li>
+              <li>
+                <a href="https://vk.com/k6aka" target="_blank"
+                  ><img src="./img/VKicon.png" alt="VK"
+                /></a>
+              </li>
+              <li>
+                <a href="https://t.me/KuzyaBaka" target="_blank"
+                  ><img src="./img/Telegram-Icon.png" alt="Telegram"
+                /></a>
+              </li>
+              <li>
+                <a
+                  href="https://www.linkedin.com/in/%D0%B4%D0%BC%D0%B8%D1%82%D1%80%D0%B8%D0%B9-%D0%BA%D1%83%D0%B7%D0%BD%D0%B5%D1%86%D0%BE%D0%B2-854689256/"
+                  target="_blank"
+                  ><img src="./img/linkedinicon.png" alt="linkedin"
+                /></a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </header>
+      <main class="main">
+        <div class="section-container">
+          <section class="aside-section">
+            <h2>My contacts</h2>
+            <ul class="contacts-ul">
+              <li>Location: Mogilev, Belarus</li>
+              <li>Phone number: +375(33)350-48-76</li>
+              <li>E-Mail: youryz58@gmail.com</li>
+              <li>
+                <a href="https://t.me/KuzyaBaka" target="_blank">Telegram</a>:
+                @KuzyaBaka
+              </li>
+              <li>
+                <a href="https://github.com/KuzyaBaka" target="_blank"
+                  >Github account</a
+                >: KuzyaBaka
+              </li>
+              <li>
+                <a
+                  href="https://www.linkedin.com/in/%D0%B4%D0%BC%D0%B8%D1%82%D1%80%D0%B8%D0%B9-%D0%BA%D1%83%D0%B7%D0%BD%D0%B5%D1%86%D0%BE%D0%B2-854689256/"
+                  target="_blank"
+                  >Linkedin account</a
+                >
+              </li>
+            </ul>
+          </section>
+          <section class="main-section">
+            <h2>A little bit about myself</h2>
+            <p class="about-me">
+              Hi, I am 23 years old and I have big ambitions in the field of
+              Front-End. At the moment I am taking programming courses and I
+              have success in this. From childhood I liked computers and their
+              devices, but I was more interested in how certain programs work.
+              As a child, I tried to write plugins for games according to
+              guides, but that was a long time ago. Now I want to monetize and
+              develop my interest in IT. I am very interested in developing in
+              this area and I will do my best not to stand still. Thank you for
+              your attention.
+            </p>
+          </section>
+        </div>
+        <div class="section-container">
+          <section class="aside-section">
+            <h2>Slills</h2>
+            <ul class="contacts-ul">
+              <li class="li-html">HTML</li>
+              <li>CSS</li>
+              <li>JS</li>
+              <li>Github & Git</li>
+              <li>JQuery</li>
+              <li>TypeScript</li>
+            </ul>
+          </section>
+          <section class="main-section">
+            <h2>Code example</h2>
+            <p class="description">
+              Write a function that takes an integer as input, and returns the
+              number of bits that are equal to one in the binary representation
+              of that number. You can guarantee that input is non-negative.
+              Example: The binary representation of <span class="example">1234</span> is
+              <span class="example">10011010010</span>, so the function should return 5 in this
+              case
+            </p>
+            <code class="code-example">
+              <pre>
+                <span class="js-keyword">var</span> <span class="js-names">countBits</span> = <span class="js-keyword">function</span>(n) {<br>
+                  <span class="js-keyword">const</span> <span class="js-names">oneBit</span> = Array.from(n.toString(2)).map((i) => +i);<br>
+                  <span class="js-keyword">return</span> oneBit.filter(Boolean).length 
+                };
+              </pre>
+            </code>
+            <h2>Project</h2>
+            <a href="https://kuzyabaka.github.io/try-js/" class="project">My first project on JS</a>
+          </section>
+        </div>
+        <div class="section-container">
+          <section class="experience-section">
+            <h2>Experience</h2>
+            <p>In this moment i have no work experience yet.</p>
+          </section>
+        </div>
+        <div class="section-container">
+          <section class="experience-section">
+            <h2>Education</h2>
+            <p><span class="date-learning">09.2022 - 01.2023: </span><a href="https://melarossa.by/">IT School Melarossa</a></p>
+            <p><span class="date-learning">12.2022 - ...: </span><a href="https://rs.school/js/">RS School</a></p>
+          </section>
+        </div>
+      </main>
+      <footer class="footer">
+
+      </footer>
+    </div>
   </body>
 </html>
