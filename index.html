@@ -1,20 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link
       href="https://fonts.googleapis.com/css2?family=Londrina+Solid:wght@100;300;400;900&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="./style.css" />
+      rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
     <title>Document</title>
   </head>
   <body>
     <div class="wrapper">
       <header class="header">
         <div class="image-container">
-          <img src="./img/0912220958 (2).jpg" alt="It's me" class="head-img" />
+          <img src="./img/0912220958 (2).jpg" alt="It's me" class="head-img">
         </div>
         <div>
           <h1 class="headline">Kuznetsov Dmitry</h1>
@@ -23,31 +22,31 @@
               <li>
                 <a href="https://github.com/KuzyaBaka" target="_blank"
                   ><img src="./img/Github-icon.png" alt="github"
-                /></a>
+                ></a>
               </li>
               <li>
                 <a href="https://vk.com/k6aka" target="_blank"
                   ><img src="./img/VKicon.png" alt="VK"
-                /></a>
+                ></a>
               </li>
               <li>
                 <a href="https://t.me/KuzyaBaka" target="_blank"
                   ><img src="./img/Telegram-Icon.png" alt="Telegram"
-                /></a>
+                ></a>
               </li>
               <li>
                 <a
                   href="https://www.linkedin.com/in/%D0%B4%D0%BC%D0%B8%D1%82%D1%80%D0%B8%D0%B9-%D0%BA%D1%83%D0%B7%D0%BD%D0%B5%D1%86%D0%BE%D0%B2-854689256/"
                   target="_blank"
                   ><img src="./img/linkedinicon.png" alt="linkedin"
-                /></a>
+                ></a>
               </li>
             </ul>
           </nav>
         </div>
       </header>
-      <main class="main">
-        <div class="section-container">
+      <div class="main-container">
+        <aside class="aside">
           <section class="aside-section">
             <h2>My contacts</h2>
             <ul class="contacts-ul">
@@ -72,6 +71,37 @@
               </li>
             </ul>
           </section>
+          <section class="aside-section">
+            <h2>Education</h2>
+            <ul class="contacts-ul">
+              <li>
+                <span class="date-learning">09.2022 - 01.2023: </span
+                ><a href="https://melarossa.by/" target="_blank">IT School Melarossa</a>
+              </li>
+              <li>
+                <span class="date-learning">12.2022 - ...: </span
+                ><a href="https://rs.school/js/" target="_blank">RS School</a>
+              </li>
+            </ul>
+            <h2>Languages</h2>
+            <ul class="contacts-ul">
+              <li><span class="date-learning">English:</span> Intermediate</li>
+              <li><span class="date-learning">Russian:</span> Proficiency</li>
+            </ul>
+          </section>
+          <section class="aside-section">
+            <h2>Slills</h2>
+            <ul class="contacts-ul">
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>JS</li>
+              <li>Github & Git</li>
+              <li>JQuery</li>
+              <li>TypeScript</li>
+            </ul>
+          </section>
+        </aside>
+        <main class="main">
           <section class="main-section">
             <h2>A little bit about myself</h2>
             <p class="about-me">
@@ -86,28 +116,16 @@
               your attention.
             </p>
           </section>
-        </div>
-        <div class="section-container">
-          <section class="aside-section">
-            <h2>Slills</h2>
-            <ul class="contacts-ul">
-              <li class="li-html">HTML</li>
-              <li>CSS</li>
-              <li>JS</li>
-              <li>Github & Git</li>
-              <li>JQuery</li>
-              <li>TypeScript</li>
-            </ul>
-          </section>
           <section class="main-section">
             <h2>Code example</h2>
             <p class="description">
               Write a function that takes an integer as input, and returns the
               number of bits that are equal to one in the binary representation
               of that number. You can guarantee that input is non-negative.
-              Example: The binary representation of <span class="example">1234</span> is
-              <span class="example">10011010010</span>, so the function should return 5 in this
-              case
+              Example: The binary representation of
+              <span class="example">1234</span> is
+              <span class="example">10011010010</span>, so the function should
+              return 5 in this case
             </p>
             <code class="code-example">
               <pre>
@@ -118,25 +136,25 @@
               </pre>
             </code>
             <h2>Project</h2>
-            <a href="https://kuzyabaka.github.io/try-js/" class="project">My first project on JS</a>
+            <a href="https://kuzyabaka.github.io/try-js/" class="project"
+              >My first project on JS</a
+            >
           </section>
-        </div>
-        <div class="section-container">
-          <section class="experience-section">
+          <section class="main-section">
             <h2>Experience</h2>
             <p>In this moment i have no work experience yet.</p>
           </section>
-        </div>
-        <div class="section-container">
-          <section class="experience-section">
-            <h2>Education</h2>
-            <p><span class="date-learning">09.2022 - 01.2023: </span><a href="https://melarossa.by/">IT School Melarossa</a></p>
-            <p><span class="date-learning">12.2022 - ...: </span><a href="https://rs.school/js/">RS School</a></p>
-          </section>
-        </div>
-      </main>
-      <footer class="footer">
+        </main>
+      </div>
 
+      <footer class="footer">
+        <ul class="headline-ul">
+          <li><a href="https://github.com/KuzyaBaka" target="_blank"
+            ><img src="./img/Github-icon.png" alt="github"
+          ></a></li>
+          <li>2022</li>
+          <li><a href="https://rs.school/js/" target="_blank"><img src="https://kashin4.github.io/rsschool-cv/images/rs2.png" alt="RS school"></a></li>
+        </ul>
       </footer>
     </div>
   </body>

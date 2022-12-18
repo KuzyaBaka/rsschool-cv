@@ -11,6 +11,7 @@ body {
 
 .wrapper {
   width: 100%;
+  border-left: 2px solid rgba(33, 78, 255, 1);
 }
 
 /*General styles for all h2 and p*/
@@ -68,17 +69,26 @@ p {
 .main {
   display: flex;
   flex-direction: column;
+  width: 70%;
 }
 
-.section-container {
+.aside {
+  width: 30%;
+}
+
+.main-container {
   display: flex;
-  width: 100%;
 }
 
 .aside-section {
-  width: 30%;
-  padding: 20px;
-  border: 1px solid red;
+  margin: 20px 0;
+  padding: 0 20px;
+}
+
+.main-section{
+  margin: 20px 0;
+  display: flex;
+  flex-direction: column;
 }
 
 .contacts-ul {
@@ -87,17 +97,6 @@ p {
   display: flex;
   flex-direction: column;
   gap: 20px;
-}
-
-.main-section {
-  border: 1px solid #000;
-  padding: 20px;
-  width: 70%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
 }
 
 .about-me {
@@ -126,6 +125,14 @@ p {
   margin: 20px;
 }
 
+.description::before {
+  content: '≪ ';
+}
+
+.description::after{
+  content: '≫ ';
+}
+
 .js-keyword {
   font-weight: 900;
   color: rgb(206, 82, 0);
@@ -147,7 +154,21 @@ p {
 
 .date-learning {
   font-weight: bolder;
-  background-color: antiquewhite;
+}
+
+/* Footer */
+
+.footer {
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(
+    135deg,
+    rgba(33, 78, 255, 1) 0%,
+    rgba(175, 19, 140, 1) 100%,
+    rgba(0, 0, 0, 1) 100%
+  );
 }
 
 /* Media*/
